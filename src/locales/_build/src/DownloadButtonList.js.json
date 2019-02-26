@@ -1,0 +1,11 @@
+{
+  "loading": {
+    "defaults": "Loading",
+    "origin": [
+      [
+        "src/DownloadButtonList.js",
+        45
+      ]
+    ]
+  }
+}

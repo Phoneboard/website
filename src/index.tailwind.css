@@ -1,0 +1,32 @@
+@tailwind preflight;
+@tailwind utilities;
+
+.font-lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.page-title {
+    border-bottom: 3px solid #ff3366;
+    font-size: 5rem;
+}
+
+.changelog {
+    border: 1px solid #ff3366;
+}
+
+
+header h1 {
+    @apply font-serif text-5xl font-black inline-block flex mx-auto page-title font-lato
+}
+
+header .intro {
+    @apply flex flex-col mx-auto my-12 text-center text-grey-dark text-lg tracking-wide font-mono leading-normal
+}
+
+.download-button {
+    @apply bg-blue text-white h-12 py-2 px-4 ml-2 rounded inline-flex items-center
+}
+
+.download-button:hover {
+    @apply bg-blue-dark
+}

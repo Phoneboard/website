@@ -1,0 +1,10 @@
+{
+  "Download {version} for {platform}": {
+    "origin": [
+      [
+        "src/DownloadButton.js",
+        14
+      ]
+    ]
+  }
+}
