@@ -2,8 +2,10 @@
   "name": "phoneboard-web",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://phoneboard.co",
   "dependencies": {
     "@lingui/react": "^2.7.4",
+    "gh-pages": "^2.0.1",
     "github-markdown-css": "^3.0.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
@@ -21,7 +23,9 @@
     "eject": "react-scripts eject",
     "add-locale": "lingui add-locale",
     "extract": "lingui extract",
-    "compile": "lingui compile"
+    "compile": "lingui compile",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
