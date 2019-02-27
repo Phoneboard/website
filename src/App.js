@@ -74,13 +74,13 @@ export default class App extends React.Component {
                 <p><Trans>These paid apps cost up to a hundred bucks a year but Phoneboard is completely free.</Trans></p>
               </div>
             </header>
-            <div className="changelog markdown-body flex flex-col mx-auto w-3/5 h-64 overflow-y-scroll my-4">
+            <div className="changelog markdown-body flex flex-col mx-auto w-screen lg:w-3/5 h-64 overflow-y-scroll my-4">
               <ReactMarkdown source={changelog} className="p-4" />
             </div>
-            <div className="flex mx-auto my-4">
-              <DownloadButtonList />
-            </div>
-            <div className="flex mx-auto my-12 p-6 bg-blue text-white">
+            
+            <DownloadButtonList />
+            
+            <div className="mx-auto my-12 p-6 bg-blue text-white">
             <Trans>While Phoneboard is <mark className="mx-1 px-1">free</mark> it takes time and effort to work on it, consider supporting me on <a className="underline text-white mx-1" href="https://www.patreon.com/Phoneboard">Patreon</a> or donate on <a className="underline text-white mx-1" href="https://www.paypal.me/phoneboardapp">Paypal</a> or <a className="underline text-white ml-1" href="https://blockchain.info/address/32MGUvGdsZkDEXzv7d8xGj81JgAbuygzv3">Bitcoin</a>. Thank you!</Trans>
             </div>
           </div>

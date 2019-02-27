@@ -7,7 +7,6 @@
 
 .page-title {
     border-bottom: 3px solid #ff3366;
-    font-size: 5rem;
 }
 
 .changelog {
@@ -20,11 +19,11 @@ header h1 {
 }
 
 header .intro {
-    @apply flex flex-col mx-auto my-12 text-center text-grey-dark text-lg tracking-wide font-mono leading-normal
+    @apply flex flex-col mx-auto my-12 px-12 text-center text-grey-dark text-lg tracking-wide font-mono leading-normal
 }
 
 .download-button {
-    @apply bg-blue text-white h-12 py-2 px-4 ml-2 rounded inline-flex items-center
+    @apply bg-blue text-white h-12 py-2 my-1 px-4 ml-2 rounded inline-flex items-center
 }
 
 .download-button:hover {

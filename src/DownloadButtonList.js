@@ -57,7 +57,7 @@ export default class DownloadButtonList extends React.Component {
           return "";
       }
       return (
-        <div>
+        <div className="flex flex-col lg:flex-row mx-auto my-4">
           {json.assets.map((asset) => 
             <DownloadButton version={tagName} platform={extractPlatform(asset)} url={asset.browser_download_url} />
           )}

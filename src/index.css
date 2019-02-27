@@ -6160,7 +6160,6 @@ table {
 
 .page-title {
   border-bottom: 3px solid #f36;
-  font-size: 5rem;
 }
 
 .changelog {
@@ -6178,7 +6177,6 @@ header h1 {
   margin-left: auto;
   margin-right: auto;
   border-bottom: 3px solid #f36;
-  font-size: 5rem;
   font-family: 'Lato', sans-serif;
 }
 
@@ -6194,6 +6192,8 @@ header .intro {
   margin-right: auto;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   text-align: center;
   color: #8795a1;
   font-size: 1.125rem;
@@ -6208,6 +6208,8 @@ header .intro {
   height: 3rem;
   padding-top: .5rem;
   padding-bottom: .5rem;
+  margin-top: .25rem;
+  margin-bottom: .25rem;
   padding-left: 1rem;
   padding-right: 1rem;
   margin-left: .5rem;
