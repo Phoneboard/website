@@ -61,7 +61,7 @@ export default class DownloadButtonList extends React.Component {
           {json.assets.map((asset) => 
             <DownloadButton version={tagName} platform={extractPlatform(asset)} url={asset.browser_download_url} />
           )}
-          <DownloadButton version={tagName} platform="macOS" url="https://www.patreon.com/posts/phoneboard-for-3-24874332" />
+          <DownloadButton version={tagName} platform="macOS" url="https://www.patreon.com/posts/phoneboard-for-4-25170257" />
         </div>
       );
     }
