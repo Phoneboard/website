@@ -1,0 +1,41 @@
+// Styling for the download section
+section.download {
+    position: relative;
+    padding: 150px 0;
+
+    background: $theme-tertiary;
+    background: -webkit-linear-gradient($theme-tertiary, darken($theme-tertiary, 5%));
+    background: linear-gradient($theme-tertiary, darken($theme-tertiary, 5%));
+    color: #fff;
+    h2 {
+        font-size: 50px;
+        margin-top: 0;
+    }
+    .badges {
+        .btn {
+            display: block;
+            margin-bottom: 25px;
+            &:not(:first-child) {
+                margin-left: 20px;
+            }
+            &:last-child {
+                margin-bottom: 0;
+            }
+            svg {
+                height: 60px;
+            }
+            span {
+                margin-left: 8px;
+            }
+            @media(min-width: 768px) {
+                display: inline-block;
+                margin-bottom: 0;
+            }
+        }
+    }
+    @media(min-width: 768px) {
+        h2 {
+            font-size: 70px;
+        }
+    }
+}
