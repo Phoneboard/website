@@ -28,4 +28,14 @@ section.supporters {
         }
     }
 
+    @media (max-width: 991px) {
+        .thumbnail {
+            margin-top: 14px;
+
+            &:hover {
+                transform: scale(1.02) !important;
+            }
+        }
+    }
+
 }

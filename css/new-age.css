@@ -368,6 +368,16 @@ section.supporters .sponsors-list .thumbnail:hover {
   transform: scale(1.2);
 }
 
+@media (max-width: 991px) {
+  section.supporters .thumbnail {
+    margin-top: 14px;
+  }
+  section.supporters .thumbnail:hover {
+    -webkit-transform: scale(1.02) !important;
+    transform: scale(1.02) !important;
+  }
+}
+
 section.social {
   text-align: center;
 }
