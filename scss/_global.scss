@@ -50,3 +50,11 @@ section {
         font-size: 50px;
     }
 }
+
+.patreon-btn {
+    &:hover {
+        img {
+            filter: brightness(0.95);
+        }
+    }
+}
