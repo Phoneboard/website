@@ -21,9 +21,10 @@ header.masthead {
         }
     }
     .device-container {
-        max-width: 325px;
-        margin-right: auto;
-        margin-left: auto;
+        //max-width: 325px;
+        //margin-right: auto;
+        //margin-left: auto;
+        animation: float 2s ease infinite forwards;
         .screen img {
             border-radius: 3px;
         }
@@ -42,7 +43,7 @@ header.masthead {
             }
         }
         .device-container {
-            max-width: 325px;
+            //max-width: 325px;
         }
     }
 }

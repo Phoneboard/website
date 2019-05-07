@@ -58,3 +58,17 @@ section {
         }
     }
 }
+
+@keyframes float {
+    0% {
+        transform: translateZ(0)
+    }
+
+    40% {
+        transform: translate3d(0,-6px,0)
+    }
+
+    to {
+        transform: translateZ(0)
+    }
+}

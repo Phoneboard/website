@@ -59,6 +59,36 @@ section h2 {
   filter: brightness(0.95);
 }
 
+@-webkit-keyframes float {
+  0% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  40% {
+    -webkit-transform: translate3d(0, -6px, 0);
+    transform: translate3d(0, -6px, 0);
+  }
+  to {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
+
+@keyframes float {
+  0% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  40% {
+    -webkit-transform: translate3d(0, -6px, 0);
+    transform: translate3d(0, -6px, 0);
+  }
+  to {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
+
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: white;
@@ -171,9 +201,8 @@ header.masthead .header-content h1 {
 }
 
 header.masthead .device-container {
-  max-width: 325px;
-  margin-right: auto;
-  margin-left: auto;
+  -webkit-animation: float 2s ease infinite forwards;
+  animation: float 2s ease infinite forwards;
 }
 
 header.masthead .device-container .screen img {
@@ -193,9 +222,6 @@ header.masthead .device-container .screen img {
   }
   header.masthead .header-content h1 {
     font-size: 50px;
-  }
-  header.masthead .device-container {
-    max-width: 325px;
   }
 }
 
