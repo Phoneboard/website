@@ -140,7 +140,7 @@ const makeBundle = async() => {
   var img = src('./img/*')
     .pipe(dest('./dist/img/'));
 
-  var cname = src('./CNAME')
+  var other = src(['./CNAME', './ads.txt'])
     .pipe(dest('./dist/'));
 
   // // Font Awesome
@@ -151,7 +151,7 @@ const makeBundle = async() => {
   //   .pipe(dest('./vendor/simple-line-icons/fonts'));
   // var simpleLineIconsCSS = src('./node_modules/simple-line-icons/css/**')
   //   .pipe(dest('./vendor/simple-line-icons/css'));
-  return merge(jqueryEasing, mainJS, mainCSS, html, img, cname);
+  return merge(jqueryEasing, mainJS, mainCSS, html, img, other);
 }
 
 // Watch files

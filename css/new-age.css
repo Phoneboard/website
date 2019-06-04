@@ -378,6 +378,10 @@ section.supporters .sponsors-list {
   margin-top: 80px;
 }
 
+section.supporters .sponsors-list .row {
+  margin-top: 40px;
+}
+
 section.supporters .sponsors-list .thumbnail {
   background: #fff;
   -webkit-transition: all .3s ease-in-out;

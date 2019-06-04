@@ -12,6 +12,10 @@ section.supporters {
     .sponsors-list {
         margin-top: 80px;
 
+        .row {
+            margin-top: 40px;
+        }
+
         .thumbnail {
             background: #fff;
             transition: all .3s ease-in-out;
