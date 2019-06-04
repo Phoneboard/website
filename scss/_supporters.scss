@@ -12,7 +12,7 @@ section.supporters {
     .sponsors-list {
         margin-top: 80px;
 
-        .row {
+        .row:not(:first-child) {
             margin-top: 40px;
         }
 

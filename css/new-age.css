@@ -378,7 +378,7 @@ section.supporters .sponsors-list {
   margin-top: 80px;
 }
 
-section.supporters .sponsors-list .row {
+section.supporters .sponsors-list .row:not(:first-child) {
   margin-top: 40px;
 }
 
