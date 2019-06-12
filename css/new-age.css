@@ -403,6 +403,14 @@ section.supporters .sponsors-list .thumbnail:hover {
   transform: scale(1.2);
 }
 
+section.supporters .sponsors-list .thumbnail h6 {
+  margin-top: -18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 @media (max-width: 991px) {
   section.supporters .thumbnail {
     margin-top: 14px;
