@@ -411,6 +411,10 @@ section.supporters .sponsors-list .thumbnail h6 {
   user-select: none;
 }
 
+section.supporters .sponsors-list .thumbnail.hqcs {
+  background-color: #f4f2f0;
+}
+
 @media (max-width: 991px) {
   section.supporters .thumbnail {
     margin-top: 14px;
