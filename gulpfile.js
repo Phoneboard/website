@@ -143,14 +143,6 @@ const makeBundle = async() => {
   var other = src(['./CNAME', './ads.txt'])
     .pipe(dest('./dist/'));
 
-  // // Font Awesome
-  // var fontAwesome = src('./node_modules/@fortawesome/**/*')
-  //   .pipe(dest('./vendor'));
-  // // Simple Line Icons
-  // var simpleLineIconsFonts = src('./node_modules/simple-line-icons/fonts/**')
-  //   .pipe(dest('./vendor/simple-line-icons/fonts'));
-  // var simpleLineIconsCSS = src('./node_modules/simple-line-icons/css/**')
-  //   .pipe(dest('./vendor/simple-line-icons/css'));
   return merge(jqueryEasing, mainJS, mainCSS, html, img, other);
 }
 
