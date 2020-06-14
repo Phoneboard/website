@@ -249,6 +249,7 @@ section.download .badges .btn:not(:first-child) {
 }
 
 section.download .badges .btn:last-child {
+  margin-top: 20px;
   margin-bottom: 0;
 }
 
@@ -409,10 +410,6 @@ section.supporters .sponsors-list .thumbnail h6 {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
-
-section.supporters .sponsors-list .thumbnail.hqcs {
-  background-color: #f4f2f0;
 }
 
 @media (max-width: 991px) {
